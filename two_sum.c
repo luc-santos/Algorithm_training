@@ -30,17 +30,3 @@ int	*two_sum (int *array, int target, int len)
 	free (result);
 	return (NULL);
 }
-
-int	main(void)
-{
-	int	arr[] = {2, 7, 11, 15};
-	int	*res;
-
-	res = two_sum(arr, 9, 4);
-	if (res)
-	{
-		printf("%d %d\n", res[0], res[1]);
-		free(res);
-	}
-	return (0);
-}
