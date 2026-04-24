@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 struct ListNode	*new_node(int value)
 {
 	struct ListNode	*node;
