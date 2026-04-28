@@ -1,3 +1,16 @@
+/*
+** Implements regex matching with support for '.' and '*'.
+** '.' matches any single character.
+** '*' means zero or more of the previous character.
+** Uses recursion to check all valid matching possibilities.
+** Handles two cases:
+** - Skip "x*" (zero occurrences)
+** - Use "x*" if first characters match
+**
+** Example:
+** s = "aab", p = "c*a*b" → true
+*/
+
 #include <stdbool.h>
 
 static int	first_match(char *s, char *p)
