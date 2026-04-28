@@ -1,3 +1,14 @@
+/*
+** Checks if an integer is a palindrome.
+** Reverses the number digit by digit and compares with original.
+** Negative numbers are not palindromes.
+** Builds reversed number using modulo and division.
+**
+** Example:
+** x = 121 → true
+** x = 123 → false
+*/
+
 #include <stdbool.h>
 
 bool isPalindrome(int x)
