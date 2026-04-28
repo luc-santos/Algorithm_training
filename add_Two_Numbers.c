@@ -1,3 +1,15 @@
+/*
+** Adds two numbers represented as linked lists (digits in reverse order).
+** Iterates through both lists, summing digits + carry (like manual addition).
+** Creates a new list where each node is (sum % 10) and updates carry (sum / 10).
+** Continues until both lists end and no carry remains.
+**
+** Example:
+** l1 = [2 -> 4 -> 3] (342)
+** l2 = [5 -> 6 -> 4] (465)
+** result = [7 -> 0 -> 8] (807)
+*/
+
 #include <stdlib.h>
 
 struct ListNode	*new_node(int value)
