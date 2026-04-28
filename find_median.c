@@ -1,3 +1,16 @@
+/*
+** Finds the median of two sorted arrays.
+** Merges both arrays into a new sorted array (like merge step of merge sort).
+** Iterates comparing elements from nums1 and nums2.
+** After merging, calculates the median:
+** - If odd length → middle element
+** - If even length → average of two middle elements
+**
+** Example:
+** nums1 = [1, 3], nums2 = [2]
+** merged = [1, 2, 3] → median = 2
+*/
+
 #include <stdlib.h>
 
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size) 
