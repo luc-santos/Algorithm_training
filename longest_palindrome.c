@@ -1,3 +1,14 @@
+/*
+** Finds the longest palindromic substring inside a string.
+** Expands from each character as the center of a palindrome.
+** Checks both odd and even length palindromes.
+** Keeps the start position and max length found.
+** Allocates and returns a new string with the result.
+**
+** Example:
+** s = "babad" → "bab" or "aba"
+*/
+
 #include <stdlib.h>
 #include <string.h>
 
