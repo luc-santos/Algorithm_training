@@ -1,3 +1,14 @@
+/*
+** Finds the length of the longest substring without repeating characters.
+** For each position, expands forward until a duplicate is found.
+** Uses an array to track already seen characters.
+** Resets tracking for each new starting position.
+** Keeps the maximum length found.
+**
+** Example:
+** s = "abcabcbb" → 3 ("abc")
+*/
+
 #include <string.h>
 
 int lengthOfLongestSubstring(char* s)
