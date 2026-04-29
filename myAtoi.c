@@ -1,3 +1,14 @@
+/*
+** Converts a string to an integer (similar to atoi).
+** Skips whitespace, handles optional '+' or '-' sign.
+** Parses digits and builds the number.
+** Checks for overflow and returns INT_MAX or INT_MIN if exceeded.
+** Returns the final signed integer.
+**
+** Example:
+** s = "  -42" → -42
+*/
+
 #include <limits.h>
 
 int	myAtoi(char *s)
