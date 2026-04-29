@@ -1,3 +1,14 @@
+/*
+** Reverses the digits of an integer.
+** Extracts digits using modulo and builds the reversed number.
+** Checks for overflow before multiplying and adding digits.
+** Returns 0 if the reversed number exceeds int limits.
+**
+** Example:
+** x = 123 → 321
+** x = -123 → -321
+*/
+
 int reverse(int x)
 {
     int new_nb;
