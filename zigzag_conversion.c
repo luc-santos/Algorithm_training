@@ -1,3 +1,14 @@
+/*
+** Converts a string into a zigzag pattern and reads it row by row.
+** Calculates a cycle length based on numRows.
+** Iterates each row and picks characters following the zigzag pattern.
+** Handles middle rows by adding diagonal elements.
+** Builds and returns a new reordered string.
+**
+** Example:
+** s = "PAYPALISHIRING", numRows = 3 → "PAHNAPLSIIGYIR"
+*/
+
 char *convert(char *s, int numRows)
 {
     int len;
