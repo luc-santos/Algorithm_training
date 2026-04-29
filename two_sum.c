@@ -1,3 +1,14 @@
+/*
+** Finds two indices in the array whose values sum to target.
+** Uses a brute-force approach with two nested loops.
+** Checks every pair of elements until a match is found.
+** Returns a dynamically allocated array with the indices.
+** Returns NULL if no valid pair exists.
+**
+** Example:
+** array = [2, 7, 11, 15], target = 9 → [0, 1]
+*/
+
 #include <stdlib.h>
 
 int	*two_sum (int *array, int target, int len)
